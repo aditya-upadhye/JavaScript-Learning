@@ -26,7 +26,7 @@ let myName = "Aditya"; // String Literal
 let age = 30; // Number Literal
 let isApproved = true; // Boolean Literal
 let firstName = undefined;
-let selectedColor = null;
+let selectedNum = null;
 // null and undefined are actually the same thing
 
 // DYNAMIC TYPING
@@ -49,3 +49,8 @@ person["hisName"] = "Mary";
 // Most preferred is Dot Notaton but Bracket Notation has its own benefits in some cases
 
 console.log(person);
+
+// ARRAYS
+let selectedColors = ["red", "blue"];
+selectedColors[2] = 1;
+console.log(selectedColors.length);
