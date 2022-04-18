@@ -28,3 +28,24 @@ let isApproved = true; // Boolean Literal
 let firstName = undefined;
 let selectedColor = null;
 // null and undefined are actually the same thing
+
+// DYNAMIC TYPING
+console.log(typeof name);
+name = 1;
+console.log(typeof name);
+
+// OBJECTS
+let person = {
+  hisName: "John",
+  hisAge: 30,
+};
+
+// Dot Notation
+person.hisName = "Bravo";
+
+// Bracket Notation
+person["hisName"] = "Mary";
+
+// Most preferred is Dot Notaton but Bracket Notation has its own benefits in some cases
+
+console.log(person);
