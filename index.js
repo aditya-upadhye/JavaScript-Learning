@@ -54,3 +54,21 @@ console.log(person);
 let selectedColors = ["red", "blue"];
 selectedColors[2] = 1;
 console.log(selectedColors.length);
+
+// FUNCTIONS
+
+// Declaring the function
+function greet(name) {
+  // This is the body of the function
+  console.log("Hello " + name);
+}
+
+greet("John"); // Calling the function
+
+// Calculating a value
+function square(number) {
+  return number * number;
+}
+
+// let number = square(2);
+console.log(square(2));
