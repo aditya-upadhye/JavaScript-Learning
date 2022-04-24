@@ -71,8 +71,6 @@ const isFullAge = ageJohn >= 18;
 
 console.log(now - 1991 > now - 2018);
 
-*/
-
 let x, y;
 x = y = 25 - 10 - 5; // x = y = 10
 console.log(x, y);
@@ -85,3 +83,33 @@ console.log(ageAditya, ageJohn);
 
 const averageAge = (ageAditya + ageJohn) / 2;
 console.log(ageAditya, ageJohn, averageAge);
+*/
+
+////////////////////////////////////////////
+// Coding Challenge #1
+
+let weightMark = 78,
+  weightJohn = 92,
+  heightMark = 1.69,
+  heightJohn = 1.95;
+
+bmiMark = weightMark / heightMark ** 2;
+bmiJohn = weightJohn / heightJohn ** 2;
+
+console.log(bmiMark, bmiJohn);
+
+let markHigherBMI = bmiMark > bmiJohn;
+console.log(markHigherBMI);
+
+weightMark = 95;
+weightJohn = 85;
+heightMark = 1.88;
+heightJohn = 1.76;
+
+bmiMark = weightMark / heightMark ** 2;
+bmiJohn = weightJohn / heightJohn ** 2;
+
+console.log(bmiMark, bmiJohn);
+
+markHigherBMI = bmiMark > bmiJohn;
+console.log(markHigherBMI);
