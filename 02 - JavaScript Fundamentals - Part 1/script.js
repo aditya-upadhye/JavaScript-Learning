@@ -83,15 +83,14 @@ console.log(ageAditya, ageJohn);
 
 const averageAge = (ageAditya + ageJohn) / 2;
 console.log(ageAditya, ageJohn, averageAge);
-*/
 
 ////////////////////////////////////////////
 // Coding Challenge #1
 
 let weightMark = 78,
-  weightJohn = 92,
-  heightMark = 1.69,
-  heightJohn = 1.95;
+weightJohn = 92,
+heightMark = 1.69,
+heightJohn = 1.95;
 
 bmiMark = weightMark / heightMark ** 2;
 bmiJohn = weightJohn / heightJohn ** 2;
@@ -113,3 +112,26 @@ console.log(bmiMark, bmiJohn);
 
 markHigherBMI = bmiMark > bmiJohn;
 console.log(markHigherBMI);
+*/
+
+const firstName = "Aditya";
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+const aditya =
+  "I'm " + firstName + ", a " + (year - birthYear) + " years old" + job + "!";
+
+console.log(aditya);
+
+const adityaNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
+console.log(adityaNew);
+
+console.log(`Just a regular string...`);
+
+console.log("String with \n\
+multiple \n\
+lines");
+
+console.log(`String
+multiple
+lines`);
