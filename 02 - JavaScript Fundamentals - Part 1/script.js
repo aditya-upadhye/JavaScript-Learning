@@ -101,7 +101,7 @@ let markHigherBMI = bmiMark > bmiJohn;
 console.log(markHigherBMI);
 
 weightMark = 95;
-weightJohn = 85;
+weightJohn = 85;  
 heightMark = 1.88;
 heightJohn = 1.76;
 
@@ -112,7 +112,6 @@ console.log(bmiMark, bmiJohn);
 
 markHigherBMI = bmiMark > bmiJohn;
 console.log(markHigherBMI);
-*/
 
 const firstName = "Aditya";
 const job = "teacher";
@@ -120,18 +119,53 @@ const birthYear = 1991;
 const year = 2037;
 const aditya =
   "I'm " + firstName + ", a " + (year - birthYear) + " years old" + job + "!";
+  
+  console.log(aditya);
+  
+  const adityaNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
+  console.log(adityaNew);
+  
+  console.log(`Just a regular string...`);
+  
+  console.log("String with \n\
+  multiple \n\
+  lines");
+  
+  console.log(`String
+  multiple
+  lines`);
+  const age = 15;
+  
+if (age >= 18) {
+  console.log("Aditya can start driving.");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Aditya is too young. Wait another ${yearsLeft} years :)`);
+}
 
-console.log(aditya);
+const birthYear = 2003;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+*/
 
-const adityaNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
-console.log(adityaNew);
+/////////////////////////////////////////////
+// Coding Challenge #2
 
-console.log(`Just a regular string...`);
+let weightMark = 78,
+  weightJohn = 92,
+  heightMark = 1.69,
+  heightJohn = 1.95;
 
-console.log("String with \n\
-multiple \n\
-lines");
+bmiMark = weightMark / heightMark ** 2;
+bmiJohn = weightJohn / heightJohn ** 2;
 
-console.log(`String
-multiple
-lines`);
+if (bmiMark > bmiJohn) {
+  console.log(`Mark's BMI (${bmiMark} is higher than John's (${bmiJohn}))`);
+} else {
+  console.log(`John's BI (${bmiJohn}) is higher than Mark's (${bmiMark})`);
+}
