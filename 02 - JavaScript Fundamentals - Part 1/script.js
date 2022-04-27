@@ -151,7 +151,6 @@ if (birthYear <= 2000) {
   century = 21;
 }
 console.log(century);
-*/
 
 /////////////////////////////////////////////
 // Coding Challenge #2
@@ -160,12 +159,34 @@ let weightMark = 78,
   weightJohn = 92,
   heightMark = 1.69,
   heightJohn = 1.95;
+  
+  bmiMark = weightMark / heightMark ** 2;
+  bmiJohn = weightJohn / heightJohn ** 2;
+  
+  if (bmiMark > bmiJohn) {
+    console.log(`Mark's BMI (${bmiMark} is higher than John's (${bmiJohn}))`);
+  } else {
+    console.log(`John's BI (${bmiJohn}) is higher than Mark's (${bmiMark})`);
+  }
+  */
 
-bmiMark = weightMark / heightMark ** 2;
-bmiJohn = weightJohn / heightJohn ** 2;
+// Type conversion
+const inputYear = "2003";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
 
-if (bmiMark > bmiJohn) {
-  console.log(`Mark's BMI (${bmiMark} is higher than John's (${bmiJohn}))`);
-} else {
-  console.log(`John's BI (${bmiJohn}) is higher than Mark's (${bmiMark})`);
-}
+console.log(Number("Aditya"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// Type coercion
+
+console.log("I am " + 23 + " years old");
+console.log("23" - "10" - 3);
+console.log("23" * "2");
+console.log("23" > "18");
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
