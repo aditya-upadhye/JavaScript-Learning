@@ -189,7 +189,6 @@ console.log("23" > "18");
 let n = "1" + 1;
 n = n - 1;
 console.log(n);
-*/
 
 // 5 falsy values: 0, '', undefined, null, NaN
 console.log(Boolean(0));
@@ -211,3 +210,9 @@ if (height) {
 } else {
   console.log("Height is undefined");
 }
+*/
+
+// Equality operator: == vs ===
+
+const age = 18;
+if (age === 18) console.log("You just became an adult");
